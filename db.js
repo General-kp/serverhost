@@ -11,4 +11,5 @@ const app = initializeApp(firebaseConfig);
 // Initialize Realtime Database and get a reference to the service
 const database = getDatabase(app);
 console.log("jetkins")
+console.log("demo")
 module.exports = database;
